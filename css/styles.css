@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 
 * {
   margin: 0;
@@ -14,11 +15,72 @@ html{
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  background-color: whitesmoke;
 }
 
 
+.header{
+  background-color: white;
+}
 
 .header img{
 	width: 350px;
 	height: auto;
+}
+
+.carousel1 img{
+  width: 100%;
+  height: 300px;
+}
+
+
+.title_about{
+  background-color: dimgray;
+  color: whitesmoke;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  padding: 15px 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_about h1{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.image_manchester{
+  width: 50%;
+  height: 600px;
+  float: left;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_manchester img{
+  width: 100%;
+  height: auto;
+
+}
+
+
+.about_manchester{
+  width: 50%;
+  height: 600px;
+  float: right;
+  background-color: red;
+  font-size: 5px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.about_manchester h1{
+  font-size: 30px;
+}
+.about_manchester p{
+  font-size: 15px;
 }
